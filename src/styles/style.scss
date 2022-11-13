@@ -17,6 +17,22 @@ ul {
   list-style-type: none;
 }
 
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+
+  button {
+    padding: 0.25rem 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background-color: rgb(144, 238, 144);
+    color: white;
+    cursor: pointer;
+  }
+}
+
 @import './nav.scss';
 @import './search.scss';
 @import './footer.scss';
